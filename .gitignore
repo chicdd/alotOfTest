@@ -44,3 +44,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 /.claude/
+.claude/worktrees/mystifying-kilby-a75393
