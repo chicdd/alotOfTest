@@ -3,6 +3,7 @@ import 'package:alotoftest/WidgetTest.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -128,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
               // 액션
               onPressed: () {Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const Utilitytest()),
+                MaterialPageRoute(builder: (context) => const UtilityTest()),
               );},
               // 라벨
               child: Text('기능 테스트'),
